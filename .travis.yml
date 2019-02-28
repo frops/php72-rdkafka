@@ -1,0 +1,7 @@
+services:
+  - docker
+  
+before_install:
+  - docker build -t php72-rdkafka .
+  - docker run -d -p 9001:9000 php72-rdkafka
+  - docker ps -a
