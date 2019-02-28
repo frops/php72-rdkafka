@@ -1,20 +1,21 @@
 # PHP7.2-FPM with Rdkafka [![Build Status](https://api.travis-ci.org/frops/php72-rdkafka.svg?branch=master)](https://travis-ci.org/frops/php72-rdkafka)
 
-Image of php7.2-fpm with extensions:
-* OpenSSL PHP Extension
-* PDO PHP Extension
-* Mbstring PHP Extension
-* Tokenizer PHP Extension
-* XML PHP Extension
-* Ctype PHP Extension
-* JSON PHP Extension
-* CURL Extension
-* Iconv Extension
-* Intl Extension
-* Imagick Extension
-* Redis Extension (with igbinary and lzf)
-* Igbinary Extension (required for Redis extension)
-* Lzf Extension (required for Redis extension)
+## PHP Extensions
+* Rdkafka
+* Redis (with igbinary and lzf)
+* PDO PHP
+* Imagick
+* Mbstring PHP
+* XML PHP
+* OpenSSL PHP
+* Ctype PHP
+* JSON PHP
+* CURL
+* Iconv
+* Intl
+* Tokenizer PHP
+* Igbinary (required for Redis extension)
+* Lzf (required for Redis extension)
 
 Also image contains **Composer**
 
