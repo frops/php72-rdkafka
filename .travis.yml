@@ -1,7 +1,13 @@
 services:
   - docker
   
-before_install:
+language: php
+php:
+  - 7.2.14
+  
+install:
   - docker build -t php72-rdkafka .
-  - docker run -d -p 9001:9000 php72-rdkafka
-  - docker ps -a
+  - docker run -d -p 9000:9000 php72-rdkafka
+  
+script:
+  - docker ps | grep frops/php72-rdkafka
