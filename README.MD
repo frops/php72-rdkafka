@@ -5,6 +5,7 @@
 * Redis (with igbinary and lzf)
 * PDO PHP
 * Imagick
+* GD
 * Mbstring PHP
 * XML PHP
 * OpenSSL PHP
@@ -16,6 +17,15 @@
 * Tokenizer PHP
 * Igbinary (required for Redis extension)
 * Lzf (required for Redis extension)
+
+## OS libraries
+* git
+* yarn
+* npm
+* openssh
+* bash
+* libmemcached
+* etc
 
 Also image contains **Composer**
 
